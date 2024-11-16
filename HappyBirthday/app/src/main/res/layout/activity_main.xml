@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/androidparty" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:fontFamily="sans-serif-light"
+    android:text="Happy Birthday, Bogale!"
+    android:textColor="@color/white"
+    android:textSize="36sp" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:fontFamily="cursive"
+    android:layout_margin="16dp"
+    android:text="From Béla Jash!"
+    android:textColor="@color/white"
+    android:textSize="36sp" />
+
+</RelativeLayout>
